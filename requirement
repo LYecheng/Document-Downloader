@@ -1,0 +1,48 @@
+
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+proThreaded:
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+Create a desktop JavaFX that allows your user to download files of a partiucul format, inclouding pdf, doc/docx, ppt, and any others you want to include. Your app must be multi-threaded, and it should display a progress bar for each download.  Use the ProducerConsumerMain, PdfMain, and CssExampleMain projects as inspiration.
+
+
+All the documents should be available for download legally on the Internet. The purpose of the app is to provide researchers with the ability to automate the downloading of relevant documents.  You will need to get familiar with Google's advanced search. See links below for more information. A productive search could return several hundred files.
+
+Save each search in its own sub-dir, e.g. if you search for documents on "javafx worker", then your documents should be stored in a directory called e.g. c:/path/selectedDir/javafx_worker
+
+
+Rank the files according to their relevance and include a three-letter nickname (ggl below for google) for its source, such as
+0001_ggl_How_to_implement_concurrency_java.pdf
+0002_ggl_primer_on_javafx.docx
+...
+
+Here are some links that may help:
+
+http://download.oracle.com/otndocs/products/javafx/2/samples/Ensemble/index.html
+http://www.programmableweb.com/
+http://www.faroo.com/
+http://www.faroo.com/hp/api/api.html
+http://www.faroo.com/api?q=iphone&start=1&length=10&l=en&src=web&f=json
+http://jsonviewer.stack.hu/
+
+also:
+http://jsoup.org/cookbook/extracting-data/example-list-links
+http://pdfbox.apache.org/cookbook/textextraction.html
+http://java-source.net/open-source/pdf-libraries
+http://www.printmyfolders.com/Home/PDFBox-Tutorial
+http://thottingal.in/blog/2009/06/24/pdfbox-extract-text-from-pdf/
+http://jericho.htmlparser.net/docs/index.html
+http://www.mkyong.com/java/jsoup-html-parser-hello-world-examples/
+http://htmlunit.sourceforge.net/
+
+
+As far as the GUI, you can loosely take your inspiration from the following screenshot, but you may not create a torrent client. Please remember that all the resources you download must be available free and legally on the Internet.
+
+http://www.neowin.net/images/uploaded/free_torrent_download.jpg
+
+Please style your app well using CSS.
+
+
+
+
+
+
